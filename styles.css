@@ -51,12 +51,167 @@ header {
     margin-top: 12px;
 }
 
-.menu-bar {
+.desktop-menu-bar {
     display: flex;
-    justify-content: space-between;
+    gap: 450px;
+}
+.lang {
+    margin-left: 20px;
+}
+.icon {
+    margin-left: 20px;
+    margin-top: 5px;
 }
 .apartment {
     background-image: url(assets/Rectangle\ 5\ \(1\).png);
     height: 500px;
     margin: 10px 30px 0px 30px;
+    border-radius: 15px;
+}
+.mobile-menu-bar {
+    display: none;
+}
+.nav-bar {
+    display: flex;
+    padding: 15px 7px 15px 7px;
+}
+.nav-bar img {
+    margin-top: -10px;
+}
+.menu-toggle {
+    display: block;
+    border: none;
+    background-color:white ;
+}
+#icon {
+    margin-left: 80px;
+}
+
+.nav-bar h1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #2A90D9;
+    margin-left: 30px;
+    margin-top: -6px;
+}
+.nav-bar h1 span {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #EE685F;
+    }
+.slide-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffff;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
+.slide-menu h1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #2A90D9;
+}
+.slide-menu h1 span {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #EE685F;
+    }
+#nav-icon {
+    margin-left: 60px;
+    margin-top: 5px;
+}
+.slide-menu.active {
+    transform: translateX(0);
+    display: flex;
+    gap: 8px;
+}
+.slide-menu ul {
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 0;
+    list-style: none;
+    
+}
+.slide-menu li a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 16px;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+.gap {
+    margin-top: 20px;
+    
+}
+.close-menu {
+    display: block;
+    border: none;
+    background-color:white ;
+    font-size: 50px;
+    margin-top: -5px;
+}
+.logo {
+    display: flex;
+}
+#logo {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.links {
+    margin-top: 130px;
+}
+.phone{
+    margin-left: 10px;
+}
+.Facebook{
+    margin-left: 5px;
+}
+.ytube{
+    margin-left: 5px;
+}
+.inst{
+    margin-left: 5px;
+}
+.tele{
+    margin-left: 5px;
+}
+.mon-lan {
+    margin-top: 10px;
+}
+.language {
+    margin-left: 15px;
+}
+@media screen and (max-width: 768px) {
+    header {
+        width: 360px;
+    }
+    .mobile-menu-bar {
+        display: block;
+    }
+    .desktop-menu-bar {
+        display: none;
+    }
+    .apartment {
+        background-image: url(assets/Rectangle\ 5.svg);
+        height: 300px;
+        margin: 0;
+        border-radius: 0;
+    }
 }
