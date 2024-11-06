@@ -1,18 +1,10 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const menuToggle = document.getElementById('menuToggle');
-    const closeMenu = document.getElementById('closeMenu');
-    const navMenu = document.getElementById('navMenu');
+const burger = document.querySelector('.burger')
+const nav = document.querySelector('nav')
 
-    if (menuToggle && navMenu && closeMenu) {
-        menuToggle.addEventListener('click', () => {
-            navMenu.classList.toggle('active');
-        });
-
-        closeMenu.addEventListener('click', () => {
-            navMenu.classList.remove('active');
-        });
-    }
-});
+burger.addEventListener('click', (e) => {
+    nav.classList.toggle('open')
+    burger.classList.toggle('open')
+})
 const chooseusContainer = [
     { 
         Image: "assets/payment img.svg",

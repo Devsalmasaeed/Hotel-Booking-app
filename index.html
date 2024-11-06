@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive hotel app</title>
+    <title>desktop and mobile-view</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -27,36 +27,39 @@
         </div>
         <div class="mobile-menu-bar">
             <div class="nav-bar">
-                <div id="menuToggle" class="menu-toggle"><img src="assets/hum menu.svg" alt=""></div>
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
                 <h1>Your<span>.logo</span></h1>
                 <img src="assets/nav icon.svg" alt="" id="icon">
             </div>
-            <div class="slide-menu-bar">
-                <div id="navMenu" class="slide-menu" >
-                    <div class="logo">
-                        <div id="closeMenu" class="close-menu"><img src="assets/close menu.svg" alt=""></div>
-                        <h1 id="logo">Your<span>.logo</span></h1>
-                        <img src="assets/nav icon.svg" alt="" id="nav-icon">
-                    </div>
-                    <ul>
-                        <li class="gap"><a href="#">Last Minute Deals</a></li>
-                        <li class="gap"><a href="#">Blog</a></li>
-                        <li class="gap"><a href="#">About us</a></li>
-                        <li class="gap"><a href="#">Contacts</a></li>
-                    </ul>
-                    <div class="mon-lan">
-                        <img src="assets/money.svg" alt="" class="mon">
-                        <img src="assets/language.svg" alt="" class="language">
-                    </div>
-                    <div class="link" id="social">
-                        <img src="assets/Phone_black.svg" alt="" class="phone">
-                        <img src="assets/Facebook_black.svg" alt="" class="Facebook">
-                        <img src="assets/Youtube_black.svg" alt="" class="ytube">
-                        <img src="assets/Instagram_black.svg" alt="" class="inst">
-                        <img src="assets/Telegram-black.svg" alt="" class="tele">
-                    </div>
+            <nav>
+            <div class="slide-menu" >
+                <div class="logo">
+                    <h1 id="logo">Your<span>.logo</span></h1>
+                    <img src="assets/nav icon.svg" alt="" id="nav-icon">
                 </div>
-            </div>
+                <ul>
+                    <li class="gap">Last Minute Deals</li>
+                    <li class="gap">Blog</li>
+                    <li class="gap">About us</li>
+                    <li class="gap">Contacts</li>
+                </ul>
+                <div class="mon-lan">
+                    <img src="assets/money.svg" alt="" class="mon">
+                    <img src="assets/language.svg" alt="" class="language">
+                </div>
+                <div class="link" id="social">
+                    <img src="assets/Phone_black.svg" alt="" class="phone">
+                    <img src="assets/Facebook_black.svg" alt="" class="Facebook">
+                    <img src="assets/Youtube_black.svg" alt="" class="ytube">
+                    <img src="assets/Instagram_black.svg" alt="" class="inst">
+                    <img src="assets/Telegram-black.svg" alt="" class="tele">
+                </div>
+            </nav>
+        </div>
         </div>
         <div id="aptm" class="apartment">
             <h2>Find an apartment <br> for your vacation</h2>
