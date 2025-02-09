@@ -221,10 +221,9 @@ nav {
     border-radius: 36px;
     border: 1px solid;
     border-color: #d6d6d6;
+    margin: auto;
     box-shadow: 0px 0px 8px #00000029;
-    margin-left: 300px;
-    margin-top: -38px;
-    margin-bottom: 50px;
+    transform: translateY(-50%);
 }
 .box h3 {
     font-family: "Montserrat";
@@ -275,6 +274,11 @@ nav {
     width: 100%;
     height: 519px;
 }
+.text-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .choose-us h5 {
     font-family: "Montserrat";
     font-style: normal;
@@ -286,8 +290,6 @@ nav {
     width: 324px;
     padding-top: 40px;
     padding-bottom: 30px;
-    margin-left: 450px;
-
 }
 .choose-us h6 {
     font-family: "Montserrat";
@@ -298,16 +300,13 @@ nav {
     text-align: center;
     color: #333333;
     width: 400px;
-    margin-left: 400px;
-
-
 }
 #chooseusContainer {
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 216px;
-    margin-left: -30px;
+    justify-content: center;
 }
 #chooseusContainer img {
     transform: translateX(130%);
@@ -416,7 +415,7 @@ span {
     width:100%;
     display: flex;
     flex-direction: row;
-    margin-left: 80px;
+    justify-content: center;
 }
 .reviews {
     background-color: #ffffff;
@@ -484,7 +483,7 @@ span {
 #reviewsContainer {
     display: flex;
     flex-direction: row;
-    margin-left: 130px;
+    justify-content: center;
     width: 100%;
 }
 .arrow {
@@ -557,7 +556,7 @@ span {
 #postContainer {
     display: flex;
     flex-direction: row;
-    margin-left: 90px;
+    justify-content: center;
     width: 100%;
 }
 #titleContainer {
@@ -695,7 +694,7 @@ span {
     color: #2A90D9;
     margin-left: -2px;
 }
-@media only screen and (max-width: 768px) {
+@media (max-width: 320px) {
     header {
         height: 300px;
         margin-left: 10px;
