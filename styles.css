@@ -781,19 +781,17 @@ span {
         margin-top: 10px;
     }
     .apartment {
-        /* background-image: url(assets/Rectangle\ 5\ \(1\).png); */
         height: 350px;
-        /* background-size: cover;
-        background-repeat: no-repeat; */
-        margin: 0px 0px 0px -10px;
-        width: 320px;
+        margin: 0px 0px 0px -1px;
+        width: 100%;
     }
     .box {
         width: 90%;
         margin-top: -70px;
     }
     .btn {
-        margin: 75px 0px 0px 220px;
+        margin-left: 220px;
+        transform: translateY(-143%);
     }
     .choose-us {
         height: 1350px;
