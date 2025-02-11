@@ -790,7 +790,7 @@ span {
         margin-top: -70px;
     }
     .btn {
-        margin-left: 220px;
+        margin-left: 80%;
         transform: translateY(-143%);
     }
     .choose-us {
@@ -843,7 +843,7 @@ span {
         transform: translateX(-20%);
     } 
     .vec {
-        transform: translateX(-130%);
+        transform: translateX(-125%);
     } 
     .news h1 {
         margin-left: -20px;
