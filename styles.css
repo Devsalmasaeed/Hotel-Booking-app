@@ -86,9 +86,13 @@ li, ul {
 .nav-bar {
     background: #ffff;
     display: flex;
+    margin-left: -10px;
+    margin-right: 10px;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;
+    padding-right:10px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
     box-sizing: border-box;
     color: #eee;
 }
@@ -147,7 +151,7 @@ nav ul {
     transform: translateY(-100%);
 }
 .link {
-    margin-top: 150px;
+    margin-top: 110px;
 }
 .mon-lan {
     margin-top: 50px;
@@ -756,16 +760,73 @@ span {
     .mobile-menu-bar {
         display: block;
     }
+    header {
+        height: 350px;
+        margin: 0;
+    }
     .date {
         display: none;
     }
+    .apartment h2 {
+        font-size: 22px;
+        margin-left: 20px;
+        margin-top: 20px;
+        line-height: 32px;
+        
+    }
+
+    .apartment p {
+        font-size: 14px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
     .apartment {
-        background-image: url(assets/Rectangle\ 5\ \(1\).png);
-        height: 300px;
+        /* background-image: url(assets/Rectangle\ 5\ \(1\).png); */
+        height: 350px;
         background-size: cover;
         background-repeat: no-repeat;
-        border-radius: 0;
-        margin: 0;
+        border-radius: 10;
+        margin: 0px 0px 0px -10px;
+        width: 320px;
+    }
+    .box {
+        width: 90%;
+        margin-top: -70px;
+    }
+    .btn {
+        margin: 75px 0px 0px 220px;
+    }
+    .choose-us {
+        height: 1350px;
+    }
+    .choose-us h5 {
+        font-size: 22px;
+        width: auto;
+    }
+
+    .choose-us h6 {
+        font-size: 16px;
+        width: auto;
+    }
+    #chooseusContainer img {
+        transform: translateX(90%);
+    }
+    #chooseusContainer h3 {
+        margin-left: 10px;
+    
+    }
+    #chooseusContainer p {
+        margin-left: 5px;
+    }
+    .card {
+        margin-left: 0;
+    }
+    .more-review {
+        width: 90%;
+        margin: auto;
+    }
+    .logo {
+        margin-left: -50px;
     }
 }
 
